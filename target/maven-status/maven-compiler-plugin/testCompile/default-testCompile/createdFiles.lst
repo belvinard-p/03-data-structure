@@ -1,8 +1,5 @@
-org\example\module1DataStructure\dddd.class
 org\example\module1DataStructure\section1_coreBankingStorage\CreditUnionLedgerTest$RegisterTest.class
 org\example\module1DataStructure\section1_coreBankingStorage\CreditUnionLedgerTest$HighestBalanceTests.class
+org\example\module1DataStructure\section1_coreBankingStorage\CreditUnionLedgerTest$PrintLedgerTests.class
+org\example\module1DataStructure\section1_coreBankingStorage\CreditUnionLedgerTest$TotalDepositsTests.class
 org\example\module1DataStructure\section1_coreBankingStorage\CreditUnionLedgerTest.class
-org\example\Credit$HighestBalanceTests.class
-org\example\Credit$TotalDepositsTests.class
-org\example\Credit$RegisterTests.class
-org\example\Credit.class

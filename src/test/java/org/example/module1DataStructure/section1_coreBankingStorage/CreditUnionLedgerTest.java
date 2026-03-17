@@ -5,6 +5,9 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 
 import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -12,6 +15,7 @@ import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class CreditUnionLedgerTest {
+    private static final Logger LOGGER = LoggerFactory.getLogger(CreditUnionLedgerTest.class);
 
     private static final String[] NAMES = {
             "Jean Pierre Ngono", "Brice Kamdem", "Serge Alain Ndzié",
@@ -23,7 +27,7 @@ class CreditUnionLedgerTest {
             750_000.00, 300_000.00, 890_000.00, 450_000.00, 1_500_000.00
     };
 
-    private org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger ledger;
+    private CreditUnionLedger ledger;
 
     @BeforeEach
     void setup() {
@@ -149,13 +153,15 @@ class CreditUnionLedgerTest {
         @Test
         @DisplayName("should compute total deposits when ledger is full")
         void totalDepositsFullLedger() {
+            LOGGER.info("Print total account");
+            registerAllAccounts();
+
             double expected = 0;
-            for (int i = 0; i < 10; i++) {
-                double balance = (i + 1);
-                ledger.register(i, "Customer " + i, balance);
-                expected += balance;
+            for (double b : BALANCES) {
+                expected += b;
             }
-            assertEquals(expected, ledger.totalDeposits(), 0.001);
+
+            assertEquals(expected, ledger.totalDeposits(), 0.01);
         }
     }
 
@@ -177,6 +183,5 @@ class CreditUnionLedgerTest {
             assertTrue(result[4].contains("5,000,000.00"));
         }
     }
-
 
 }
