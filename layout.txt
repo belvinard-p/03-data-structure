@@ -1,0 +1,118 @@
+================================================================================
+  03-data-structure — Project Layout
+  Digital Internet Banking System — Java Data Structures & Algorithms
+================================================================================
+
+src/
+├── main/
+│   └── java/
+│       └── org/
+│           └── example/
+│               │
+│               ├── Main.java
+│               │
+│               ├── module1DataStructure/
+│               │   │   "Fundamental Data Structures"
+│               │   │   Arrays, ArrayLists, LinkedLists, Stacks, Queues
+│               │   │
+│               │   ├── MODULEOBJECTIVE.md
+│               │   │
+│               │   ├── section1_coreBankingStorage/
+│               │   │   │   Arrays & ArrayLists
+│               │   │   ├── exercise1_1/    # Fixed-Size Account Register (Array)
+│               │   │   ├── exercise1_2/    # Dynamic Customer Onboarding (ArrayList)
+│               │   │   └── exercise1_3/    # Branch ATM Grid (2D Array)
+│               │   │
+│               │   ├── section2_dynamicBankingRecords/
+│               │   │   │   Linked Lists
+│               │   │   ├── exercise2_1/    # Transaction History Log (Singly Linked List)
+│               │   │   └── exercise2_2/    # Account Statement Navigator (Doubly Linked List)
+│               │   │
+│               │   └── section3_bankingOperationsProcessing/
+│               │       │   Stacks & Queues
+│               │       ├── exercise3_1/    # Undo Last Transaction (Stack — LIFO)
+│               │       └── exercise3_2/    # Payment Processing Queue (Queue — FIFO)
+│               │
+│               ├── module2SortingAndSearching/
+│               │   │   "Algorithms: Maps, Searching & Sorting"
+│               │   │   HashMap, TreeMap, LinkedHashMap, Linear/Binary Search,
+│               │   │   Bubble, Insertion, Selection, Merge, Quick Sort
+│               │   │
+│               │   ├── MODULEOBJECTIVE.md
+│               │   │
+│               │   ├── section4_bankingDataRetrieval/
+│               │   │   │   HashMap, LinkedHashMap, TreeMap
+│               │   │   ├── exercise4_1/    # Account Lookup by Number (HashMap — O(1))
+│               │   │   ├── exercise4_2/    # Chronological Audit Log (LinkedHashMap)
+│               │   │   └── exercise4_3/    # Sorted Wealth Report (TreeMap)
+│               │   │
+│               │   ├── section5_searchingInBanking/
+│               │   │   │   Linear Search & Binary Search
+│               │   │   ├── exercise5_1/    # Find Customer by Name (Linear Search — O(n))
+│               │   │   └── exercise5_2/    # Fast Account Lookup (Binary Search — O(log n))
+│               │   │
+│               │   └── section6_sortingBankingData/
+│               │       │   5 Sorting Algorithms
+│               │       ├── exercise6_1/    # Sort Transactions by Amount (Bubble Sort)
+│               │       ├── exercise6_2/    # Sort Daily Transactions (Insertion Sort)
+│               │       ├── exercise6_3/    # Rank Customers by Balance (Selection Sort)
+│               │       ├── exercise6_4/    # Month-End Report Sort (Merge Sort)
+│               │       └── exercise6_5/    # Top Earners Leaderboard (QuickSort)
+│               │
+│               ├── module3PerformanceAndOptimization/
+│               │   │   "Performance Analysis & Data Structure Selection"
+│               │   │   Benchmarking, Big-O, Trade-offs
+│               │   │
+│               │   ├── MODULEOBJECTIVE.md
+│               │   │
+│               │   └── section7_performanceAndOptimization/
+│               │       ├── exercise7_1/    # Sorting Algorithm Benchmark (nanoTime)
+│               │       └── exercise7_2/    # Choosing the Right Data Structure (Big-O)
+│               │
+│               └── module4FinalProject/
+│                   │   "Digital Internet Banking System Simulation"
+│                   │   Full integration of all data structures & algorithms
+│                   │
+│                   ├── MODULEOBJECTIVE.md
+│                   │
+│                   ├── model/
+│                   │   ├── Transaction.java
+│                   │   ├── AccountSnapshot.java
+│                   │   ├── BankAccount.java
+│                   │   ├── Payment.java
+│                   │   └── LoginEvent.java
+│                   │
+│                   ├── service/
+│                   │   └── DigitalBank.java
+│                   │
+│                   ├── util/
+│                   │   ├── StatementNavigator.java
+│                   │   ├── SortingUtils.java
+│                   │   └── SearchUtils.java
+│                   │
+│                   └── Main.java
+│
+├── test/
+│   └── java/
+│
+└── dataStructureExercise.md            # Full exercise roadmap (Sections 1–7 + Final Project)
+
+================================================================================
+  Module ↔ Section Mapping
+================================================================================
+
+  Module 1: Data Structures        → Section 1 (Arrays, ArrayList)
+                                   → Section 2 (Linked Lists)
+                                   → Section 3 (Stacks, Queues)
+
+  Module 2: Sorting & Searching    → Section 4 (HashMap, LinkedHashMap, TreeMap)
+                                   → Section 5 (Linear Search, Binary Search)
+                                   → Section 6 (Bubble, Insertion, Selection, Merge, Quick Sort)
+
+  Module 3: Performance            → Section 7 (Benchmarking, Big-O, Trade-offs)
+
+  Module 4: Final Project          → Full Banking System (all concepts integrated)
+
+================================================================================
+  Exercise Count: 19 exercises + 1 capstone project
+================================================================================
