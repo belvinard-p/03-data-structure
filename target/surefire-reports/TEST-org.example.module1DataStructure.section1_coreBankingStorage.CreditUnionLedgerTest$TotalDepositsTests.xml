@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.example.module1DataStructure.section1_coreBankingStorage.CreditUnionLedgerTest$RegisterTest" time="0.132" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.example.module1DataStructure.section1_coreBankingStorage.CreditUnionLedgerTest$TotalDepositsTests" time="0.036" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -59,33 +59,19 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="registerStoresData" classname="org.example.module1DataStructure.section1_coreBankingStorage.CreditUnionLedgerTest$RegisterTest" time="0.004">
-    <system-out><![CDATA[12:10:49.939 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- Registered [0] Jean Pierre Ngono — $1,200,000.00
+  <testcase name="totalDepositsFullLedger" classname="org.example.module1DataStructure.section1_coreBankingStorage.CreditUnionLedgerTest$TotalDepositsTests" time="0.022">
+    <system-out><![CDATA[12:10:49.652 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.CreditUnionLedgerTest -- Print total account
+12:10:49.652 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- Registered [0] Jean Pierre Ngono — $1,200,000.00
+12:10:49.653 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- Registered [1] Brice Kamdem — $125,000.00
+12:10:49.654 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- Registered [2] Serge Alain Ndzié — $2,140,000.00
+12:10:49.654 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- Registered [3] Marie Claire Ndzi — $170,000.00
+12:10:49.654 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- Registered [4] Paul Biya — $5,000,000.00
+12:10:49.656 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- Registered [5] François Sengat Kuo — $750,000.00
+12:10:49.657 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- Registered [6] Esther Ngo Mback — $300,000.00
+12:10:49.657 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- Registered [7] Alain Belinga — $890,000.00
+12:10:49.658 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- Registered [8] Christine Ayissi — $450,000.00
+12:10:49.659 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- Registered [9] Joseph Tchouta — $1,500,000.00
+12:10:49.661 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- Total deposits: $12,525,000.00
 ]]></system-out>
   </testcase>
-  <testcase name="registerTenAccounts" classname="org.example.module1DataStructure.section1_coreBankingStorage.CreditUnionLedgerTest$RegisterTest" time="0.047">
-    <system-out><![CDATA[12:10:49.949 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- Registered [0] Jean Pierre Ngono — $1,200,000.00
-12:10:49.950 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- Registered [1] Brice Kamdem — $125,000.00
-12:10:49.950 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- Registered [2] Serge Alain Ndzié — $2,140,000.00
-12:10:49.951 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- Registered [3] Marie Claire Ndzi — $170,000.00
-12:10:49.951 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- Registered [4] Paul Biya — $5,000,000.00
-12:10:49.951 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- Registered [5] François Sengat Kuo — $750,000.00
-12:10:49.952 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- Registered [6] Esther Ngo Mback — $300,000.00
-12:10:49.959 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- Registered [7] Alain Belinga — $890,000.00
-12:10:49.960 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- Registered [8] Christine Ayissi — $450,000.00
-12:10:49.987 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- Registered [9] Joseph Tchouta — $1,500,000.00
-]]></system-out>
-  </testcase>
-  <testcase name="registerInvalidIndex" classname="org.example.module1DataStructure.section1_coreBankingStorage.CreditUnionLedgerTest$RegisterTest" time="0.036">
-    <system-out><![CDATA[12:10:50.018 [main] WARN org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- Invalid index: -1. Must be 0–9
-12:10:50.032 [main] WARN org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- Invalid index: 10. Must be 0–9
-]]></system-out>
-  </testcase>
-  <testcase name="registerMultipleAccounts" classname="org.example.module1DataStructure.section1_coreBankingStorage.CreditUnionLedgerTest$RegisterTest" time="0.01">
-    <system-out><![CDATA[12:10:50.052 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- Registered [0] Brice Kamdem — $125,000.00
-12:10:50.053 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- Registered [4] Serge Alain Ndzié — $214,000.00
-12:10:50.053 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- Registered [9] Marie Claire Ndzi — $170,000.00
-]]></system-out>
-  </testcase>
-  <testcase name="emptySlotReturnsDefaults" classname="org.example.module1DataStructure.section1_coreBankingStorage.CreditUnionLedgerTest$RegisterTest" time="0.002"/>
 </testsuite>
