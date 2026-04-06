@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.example.module1DataStructure.section1_coreBankingStorage.CreditUnionLedgerTest$PrintLedgerTests" time="0.395" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="org.example.module1DataStructure.section1_coreBankingStorage.CreditUnionLedgerTest$PrintLedgerTests" time="0.034" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\belvinard\AppData\Local\Temp\surefire2263668847948345913\surefirebooter-20260317121046544_3.jar C:\Users\belvinard\AppData\Local\Temp\surefire2263668847948345913 2026-03-17T12-10-46_151-jvmRun1 surefire-20260317121046544_1tmp surefire_0-20260317121046544_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\belvinard\AppData\Local\Temp\surefire17740595332071365010\surefirebooter-20260321142716364_3.jar C:\Users\belvinard\AppData\Local\Temp\surefire17740595332071365010 2026-03-21T14-27-16_038-jvmRun1 surefire-20260321142716364_1tmp surefire_0-20260321142716364_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\java\03-data-structure\target\test-classes;D:\java\03-data-structure\target\classes;C:\Users\belvinard\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\belvinard\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\belvinard\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\belvinard\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\belvinard\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\belvinard\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\belvinard\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\belvinard\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\belvinard\.m2\repository\org\slf4j\slf4j-api\2.1.0-alpha1\slf4j-api-2.1.0-alpha1.jar;C:\Users\belvinard\.m2\repository\ch\qos\logback\logback-classic\1.5.32\logback-classic-1.5.32.jar;C:\Users\belvinard\.m2\repository\ch\qos\logback\logback-core\1.5.32\logback-core-1.5.32.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\belvinard\AppData\Local\Temp\surefire2263668847948345913\surefirebooter-20260317121046544_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\belvinard\AppData\Local\Temp\surefire17740595332071365010\surefirebooter-20260321142716364_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.5+9-LTS-239"/>
@@ -59,30 +59,28 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="printLedger" classname="org.example.module1DataStructure.section1_coreBankingStorage.CreditUnionLedgerTest$PrintLedgerTests" time="0.118">
-    <system-out><![CDATA[12:10:49.544 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- Registered [0] Jean Pierre Ngono — $1,200,000.00
-12:10:49.557 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- Registered [1] Brice Kamdem — $125,000.00
-12:10:49.558 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- Registered [2] Serge Alain Ndzié — $2,140,000.00
-12:10:49.559 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- Registered [3] Marie Claire Ndzi — $170,000.00
-12:10:49.559 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- Registered [4] Paul Biya — $5,000,000.00
-12:10:49.560 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- Registered [5] François Sengat Kuo — $750,000.00
-12:10:49.560 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- Registered [6] Esther Ngo Mback — $300,000.00
-12:10:49.563 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- Registered [7] Alain Belinga — $890,000.00
-12:10:49.564 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- Registered [8] Christine Ayissi — $450,000.00
-12:10:49.565 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- Registered [9] Joseph Tchouta — $1,500,000.00
-12:10:49.565 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- === Credit Union Ledger ===
-12:10:49.566 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- [0] Jean Pierre Ngono $1,200,000.00
-12:10:49.566 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- [1] Brice Kamdem $125,000.00
-12:10:49.567 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- [2] Serge Alain Ndzié $2,140,000.00
-12:10:49.567 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- [3] Marie Claire Ndzi $170,000.00
-12:10:49.568 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- [4] Paul Biya $5,000,000.00
-12:10:49.568 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- [5] François Sengat Kuo $750,000.00
-12:10:49.569 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- [6] Esther Ngo Mback $300,000.00
-12:10:49.569 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- [7] Alain Belinga $890,000.00
-12:10:49.570 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- [8] Christine Ayissi $450,000.00
-12:10:49.570 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- [9] Joseph Tchouta $1,500,000.00
+  <testcase name="printLedger" classname="org.example.module1DataStructure.section1_coreBankingStorage.CreditUnionLedgerTest$PrintLedgerTests" time="0.022">
+    <system-out><![CDATA[14:27:19.305 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- Registered [0] Jean Pierre Ngono — $1,200,000.00
+14:27:19.307 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- Registered [1] Brice Kamdem — $125,000.00
+14:27:19.308 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- Registered [2] Serge Alain Ndzié — $2,140,000.00
+14:27:19.309 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- Registered [3] Marie Claire Ndzi — $170,000.00
+14:27:19.310 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- Registered [4] Paul Biya — $5,000,000.00
+14:27:19.311 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- Registered [5] François Sengat Kuo — $750,000.00
+14:27:19.312 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- Registered [6] Esther Ngo Mback — $300,000.00
+14:27:19.314 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- Registered [7] Alain Belinga — $890,000.00
+14:27:19.315 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- Registered [8] Christine Ayissi — $450,000.00
+14:27:19.315 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- Registered [9] Joseph Tchouta — $1,500,000.00
+14:27:19.316 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- === Credit Union Ledger ===
+14:27:19.316 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- [0] Jean Pierre Ngono $1,200,000.00
+14:27:19.317 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- [1] Brice Kamdem $125,000.00
+14:27:19.318 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- [2] Serge Alain Ndzié $2,140,000.00
+14:27:19.318 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- [3] Marie Claire Ndzi $170,000.00
+14:27:19.319 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- [4] Paul Biya $5,000,000.00
+14:27:19.319 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- [5] François Sengat Kuo $750,000.00
+14:27:19.320 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- [6] Esther Ngo Mback $300,000.00
+14:27:19.321 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- [7] Alain Belinga $890,000.00
+14:27:19.321 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- [8] Christine Ayissi $450,000.00
+14:27:19.322 [main] INFO org.example.module1DataStructure.section1_coreBankingStorage.exercise1_1.CreditUnionLedger -- [9] Joseph Tchouta $1,500,000.00
 ]]></system-out>
-    <system-err><![CDATA[SLF4J(I): Connected with provider of type [ch.qos.logback.classic.spi.LogbackServiceProvider]
-]]></system-err>
   </testcase>
 </testsuite>

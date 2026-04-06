@@ -1,0 +1,43 @@
+apiVersion: tekton.dev/v1beta1
+kind: Pipeline
+metadata:
+  name: maven-cd-pipeline
+spec:
+  params:
+    - name: source-repo
+      type: string
+      description: Git repository URL
+    - name: revision
+      type: string
+      default: "main"
+    - name: image-tag
+      type: string
+      description: Docker image tag
+  workspaces:
+    - name: source
+    - name: maven-cache
+  tasks:
+    - name: build
+      taskRef:
+        name: maven-build
+      params:
+        - name: source-repo
+          value: $(params.source-repo)
+        - name: revision
+          value: $(params.revision)
+      workspaces:
+        - name: source
+          workspace: source
+        - name: maven-cache
+          workspace: maven-cache
+    - name: docker-push
+      taskRef:
+        name: docker-build-push
+      runAfter:
+        - build
+      params:
+        - name: image-tag
+          value: $(params.image-tag)
+      workspaces:
+        - name: source
+          workspace: source

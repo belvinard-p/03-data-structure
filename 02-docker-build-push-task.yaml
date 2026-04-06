@@ -1,0 +1,32 @@
+# 02-docker-build-push-task.yaml
+apiVersion: tekton.dev/v1beta1
+kind: Task
+metadata:
+  name: docker-build-push
+spec:
+  params:
+    - name: image-tag
+      type: string
+    - name: dockerfile-path
+      type: string
+      default: "."
+  workspaces:
+    - name: source
+  steps:
+    - name: build-and-push
+      image: docker:24-dind
+      securityContext:
+        privileged: true
+      script: |
+        # Sur Windows, les chemins Docker sont différents
+        cd $(workspaces.source.path)
+        docker build -t $(params.image-tag) -f $(params.dockerfile-path)/Dockerfile .
+        docker push $(params.image-tag)
+      volumeMounts:
+        - name: docker-socket
+          mountPath: /var/run/docker.sock
+  volumes:
+    - name: docker-socket
+      hostPath:
+        # Sur Windows, le socket Docker est différent
+        path: /var/run/docker.sock  # Ce chemin fonctionne avec minikube
