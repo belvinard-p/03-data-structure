@@ -1,5 +1,6 @@
 package org.example.module1DataStructure.section3_bankingOperationsProcessing;
 
+import org.example.module1DataStructure.section3_bankingOperationsProcessing.exercise3_1.BankAccount;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

@@ -1,4 +1,4 @@
-package org.example.module1DataStructure.section3_bankingOperationsProcessing;
+package org.example.module1DataStructure.section3_bankingOperationsProcessing.exercise3_1;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
